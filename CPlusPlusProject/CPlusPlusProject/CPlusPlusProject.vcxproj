@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="CommonFunc.cpp" />
     <ClCompile Include="Ex1.cpp" />
+    <ClCompile Include="MyException.cpp" />
     <ClCompile Include="Program.cpp" />
   </ItemGroup>
   <ItemGroup>

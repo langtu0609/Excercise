@@ -1,5 +1,11 @@
+#include "MyException.cpp"
+
 int CalculateSum(int number)
 {
+	if (number < 0)
+	{
+		throw MyException();
+	}
 	// Method 1
 	/*int sum = 0;
 	
