@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\IrvineLib">
+      <UniqueIdentifier>{9e68a254-a64f-42fd-8318-4f88081e7a98}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="Ex1.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="IrvineLib\floatio.asm">
+      <Filter>Source Files\IrvineLib</Filter>
+    </MASM>
+    <MASM Include="IrvineLib\Irvine32.asm">
+      <Filter>Source Files\IrvineLib</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IrvineLib\floatio.inc">
+      <Filter>Source Files\IrvineLib</Filter>
+    </None>
+    <None Include="IrvineLib\GraphWin.inc">
+      <Filter>Source Files\IrvineLib</Filter>
+    </None>
+    <None Include="IrvineLib\Irvine32.inc">
+      <Filter>Source Files\IrvineLib</Filter>
+    </None>
+    <None Include="IrvineLib\Macros.inc">
+      <Filter>Source Files\IrvineLib</Filter>
+    </None>
+    <None Include="IrvineLib\SmallWin.inc">
+      <Filter>Source Files\IrvineLib</Filter>
+    </None>
+    <None Include="IrvineLib\VirtualKeys.inc">
+      <Filter>Source Files\IrvineLib</Filter>
+    </None>
+  </ItemGroup>
+</Project>
