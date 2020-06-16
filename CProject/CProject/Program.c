@@ -1,9 +1,9 @@
 #include "CommonFunc.h"
-#include "Ex1.h"
+#include "Ex2.h"
 
 int main()
 {
 	int number = InputNumber();
-	int result = CalculateSum(number);
+	float result = CalculateSumOfSquares(number);
 	OutputResult(result);
 }
